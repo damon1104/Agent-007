@@ -95,8 +95,3 @@ Click the radio button in the sidebar to access the Tools Management Page.
 5. **Finalize:**
 Complete the necessary actions to fully utilize the interface.
 
-
-- [aryansingh0909](https://github.com/aryansingh0909)
-- [Jahnavikkk](https://github.com/Jahnavikkk)
-- [JAYESH1304](https://github.com/JAYESH1304)
----
