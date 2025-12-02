@@ -1,0 +1,14 @@
+streamlit
+openai<1.0.0
+langchain
+huggingface_hub
+tiktoken
+cohere
+langfuse
+chromadb
+sentence_transformers
+simplejson
+faiss-cpu
+langchain-community 
+langchain-core
+langchain_huggingface
