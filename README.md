@@ -1,19 +1,3 @@
-# Inter-IIT-12-Devrev-AI-Agent-007 
-
-This is a solution for DevRev's Problem Statement at the 12th Inter IIT TechMeet aiming adepty address domain-specific user queries.
-
-We developed a Large Language Model (LLM) powered chatbot, augmented by a set of tools (APIs), each accompanied by its detailed description. The chatbot intelligently recommends subset of tools that best match the unique context of the query, specifying precise tool arguments, and sequencing tool execution intelligently. Additionally, our solution incorporates features facilitating the seamless addition and modification of tools within our toolset. 
-
-We optimize the pipeline for performance, latency, and resource usage. The dynamically changing toolset and vastly different user queries make this task challenging. We analyse the performance of different LLMs and prompting strategies, and propose novel methods for handling LLM hallucinations. We also propose a new synthetic data generation methodology which we used to generate novel queries, enabling us to better understand the user's needs.
-
-## Problem Statement
-A Language model L has a set of tools T, and a user query Q is given. To answer query Q, we need to use existing tools. You need to output the subset of tools to be used to answer the query, the arguments that these tools should be called with, and how to compose the tools to answer the query. The user queries are conversational.
-
-The set of tools T is dynamic, and new tools can be added, and existing ones could be modified or removed and the agent needs to be able to handle it gracefully.
-
-
-## Our Approach
-![Screenshot 2024-06-08 225742](https://github.com/himanshu-skid19/Inter-IIT-12-Devrev-AI-Agent-007/assets/118837763/637b0c8b-041d-4500-8842-dae5314983ec)
 
 ## Pipeline Overview
 Our final pipeline includes the following parts:
